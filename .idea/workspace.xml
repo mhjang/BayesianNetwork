@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30796a19-f719-4767-a1c8-3b26904f6885" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CPT.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CPTInstance.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/bayesian.iml" afterPath="$PROJECT_DIR$/.idea/BayesianNetwork.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BayesianNetwork.py" afterPath="$PROJECT_DIR$/BayesianNetwork.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bayesian.iws" />
@@ -325,7 +320,11 @@
       <created>1392187751818</created>
       <updated>1392187751818</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1392328076674</created>
+      <updated>1392328076674</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
