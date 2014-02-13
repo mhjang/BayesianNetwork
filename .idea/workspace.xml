@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30796a19-f719-4767-a1c8-3b26904f6885" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/bayesian.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BayesianNetwork.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-test-1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-test-2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-test-3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-test-4.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-test-5.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-train-1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-train-2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-train-3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-train-4.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-train-5.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CPT.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CPTInstance.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/bayesian.iml" afterPath="$PROJECT_DIR$/.idea/BayesianNetwork.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BayesianNetwork.py" afterPath="$PROJECT_DIR$/BayesianNetwork.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bayesian.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,10 +30,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BayesianNetwork.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BayesianNetwork.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BayesianNetwork.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="26" selection-start="315" selection-end="315" vertical-scroll-proportion="0.58690745" vertical-offset="0" max-vertical-offset="7980">
+            <state line="6" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5566">
               <folding>
                 <element signature="e#23#41#0" expanded="true" />
               </folding>
@@ -54,46 +41,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="npyio.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.3/lib/python3.3/site-packages/numpy/lib/npyio.py">
+      <file leaf-file-name="Node.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Node.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1310" column="0" selection-start="43750" selection-end="43750" vertical-scroll-proportion="0.0" vertical-offset="19137" max-vertical-offset="28005">
+            <state line="19" column="25" selection-start="647" selection-end="647" vertical-scroll-proportion="0.6418919" vertical-offset="0" max-vertical-offset="615">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data-test-1.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-test-1.txt">
+      <file leaf-file-name="CPTInstance.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CPTInstance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
+            <state line="70" column="0" selection-start="2772" selection-end="2772" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_pydev_execfile.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_execfile.py">
+      <file leaf-file-name="CPT.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CPT.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0" vertical-offset="214" max-vertical-offset="630">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data-train-1.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-train-1.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="5" selection-start="238" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3735">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data-test-4.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data-test-4.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
+            <state line="10" column="26" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="1368">
               <folding />
             </state>
           </provider>
@@ -112,14 +81,16 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/CPT.py" />
+        <option value="$PROJECT_DIR$/CPTInstance.py" />
         <option value="$PROJECT_DIR$/BayesianNetwork.py" />
+        <option value="$PROJECT_DIR$/Node.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="34" />
     <option name="y" value="22" />
-    <option name="width" value="1260" />
+    <option name="width" value="1280" />
     <option name="height" value="731" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -153,18 +124,8 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bayesian" />
+              <option name="myItemId" value="BayesianNetwork" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bayesian" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bayesian" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -360,21 +321,27 @@
       <created>1391981584377</created>
       <updated>1391981584377</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1392187751818</created>
+      <updated>1392187751818</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="22" width="1260" height="731" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1280" height="731" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14765625" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2688822" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28700906" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -390,49 +357,38 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/BayesianNetwork.py</url>
-          <line>149</line>
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/BayesianNetwork.py</url>
-          <line>177</line>
+          <line>22</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/BayesianNetwork.py</url>
-          <line>370</line>
+          <line>224</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/BayesianNetwork.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="14" />
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.3/lib/python3.3/idlelib/ReplaceDialog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="6" selection-start="372" selection-end="372" vertical-scroll-proportion="0.33173078" vertical-offset="42" max-vertical-offset="2880">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-train-1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="5" selection-start="238" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-test-4.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
           <folding />
         </state>
       </provider>
@@ -451,19 +407,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data-test-1.txt">
+    <entry file="file://$PROJECT_DIR$/CPT.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
+        <state line="10" column="26" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="1368">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CPTInstance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="0" selection-start="2772" selection-end="2772" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BayesianNetwork.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="26" selection-start="315" selection-end="315" vertical-scroll-proportion="0.58690745" vertical-offset="0" max-vertical-offset="7980">
+        <state line="6" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5566">
           <folding>
             <element signature="e#23#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="25" selection-start="647" selection-end="647" vertical-scroll-proportion="0.6418919" vertical-offset="0" max-vertical-offset="615">
+          <folding />
         </state>
       </provider>
     </entry>
