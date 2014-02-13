@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30796a19-f719-4767-a1c8-3b26904f6885" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BayesianNetwork.py" afterPath="$PROJECT_DIR$/BayesianNetwork.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CPT.py" afterPath="$PROJECT_DIR$/CPT.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CPTInstance.py" afterPath="$PROJECT_DIR$/CPTInstance.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bayesian.iws" />
@@ -28,18 +31,16 @@
       <file leaf-file-name="BayesianNetwork.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BayesianNetwork.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5566">
-              <folding>
-                <element signature="e#23#41#0" expanded="true" />
-              </folding>
+            <state line="5" column="17" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="5016" max-vertical-offset="5566">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Node.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Node.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Node.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="25" selection-start="647" selection-end="647" vertical-scroll-proportion="0.6418919" vertical-offset="0" max-vertical-offset="615">
+            <state line="19" column="25" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="615">
               <folding />
             </state>
           </provider>
@@ -48,17 +49,19 @@
       <file leaf-file-name="CPTInstance.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CPTInstance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="0" selection-start="2772" selection-end="2772" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
+            <state line="22" column="0" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0" vertical-offset="145" max-vertical-offset="672">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CPT.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CPT.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CPT.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="26" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="1368">
-              <folding />
+            <state line="11" column="7" selection-start="320" selection-end="320" vertical-scroll-proportion="0.612529" vertical-offset="0" max-vertical-offset="2616">
+              <folding>
+                <element signature="e#22#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,10 +79,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/CPT.py" />
-        <option value="$PROJECT_DIR$/CPTInstance.py" />
-        <option value="$PROJECT_DIR$/BayesianNetwork.py" />
         <option value="$PROJECT_DIR$/Node.py" />
+        <option value="$PROJECT_DIR$/BayesianNetwork.py" />
+        <option value="$PROJECT_DIR$/CPTInstance.py" />
+        <option value="$PROJECT_DIR$/CPT.py" />
       </list>
     </option>
   </component>
@@ -123,6 +126,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BayesianNetwork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bayesian" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -130,6 +143,7 @@
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
     <property name="SearchEverywhereHistory" value="replace" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BayesianNetwork.py" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -148,12 +162,12 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="bayesian" />
+      <module name="BayesianNetwork" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BayesianNetwork.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PyDebugRunner" />
@@ -324,7 +338,15 @@
       <created>1392328076674</created>
       <updated>1392328076674</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="initial commit">
+      <created>1392328150352</created>
+      <updated>1392328150352</updated>
+    </task>
+    <task id="LOCAL-00004" summary="initial commit">
+      <created>1392328173374</created>
+      <updated>1392328173374</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -340,7 +362,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28700906" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28700906" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -406,33 +428,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CPT.py">
+    <entry file="file://$PROJECT_DIR$/Node.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="26" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="1368">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CPTInstance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="0" selection-start="2772" selection-end="2772" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
+        <state line="19" column="25" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="615">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BayesianNetwork.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5566">
-          <folding>
-            <element signature="e#23#41#0" expanded="true" />
-          </folding>
+        <state line="5" column="17" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5566">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Node.py">
+    <entry file="file://$PROJECT_DIR$/CPTInstance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="25" selection-start="647" selection-end="647" vertical-scroll-proportion="0.6418919" vertical-offset="0" max-vertical-offset="615">
+        <state line="22" column="0" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0" vertical-offset="145" max-vertical-offset="672">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CPT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="7" selection-start="320" selection-end="320" vertical-scroll-proportion="0.612529" vertical-offset="0" max-vertical-offset="2616">
+          <folding>
+            <element signature="e#22#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

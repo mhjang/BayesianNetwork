@@ -1,9 +1,9 @@
 __author__ = 'mhjang'
 
 import numpy as np
-import itertools
-from itertools import *
-
+from Node import Node
+from CPT import CPT
+from CPTInstance import CPTInstance
 
 
 # Initializing nodes
